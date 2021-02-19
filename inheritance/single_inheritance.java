@@ -1,26 +1,3 @@
-/*
-INHERTITENCE 
-1) reusability of code
-2) extension of classes 
-3) building new class upon the existing one 
-4) upgradation 
-5) extending its functionality 
-6) properties of variable remains same 
-
-—————————————————————————————————————————————
-SYNTAX FOR INHERITENCE 
-class parent{
-}
-class child extends parent{}
-—————————————————————————————————————————————
-
-types of inheritance 
-1) single inheritance 
-2) multiple inheritance (not possible in java) - can be achieved using interface
-3) hybrid inheritance  
-4) hybrid inheritance
-5) multilevel inheritance  (not possible in java) - can be achieved using interface 
-*/
 public class single_inheritance {
     public class projectmanager extends Person {
         int projectAccount = 1234;

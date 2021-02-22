@@ -9,11 +9,12 @@
 6. properties of variable remains same 
 
 ## Types of inheritance 
-1) single inheritance 
-2) multiple inheritance (not possible in java) - can be achieved using interface
-3) hybrid inheritance  
+1) single inheritance (check)
+2) multiple inheritance (not possible in java) - diamond problem - can be achieved using interface (check)
+3) hierarchical inheritance  
 4) hybrid inheritance
-5) multilevel inheritance  (not possible in java) - can be achieved using interface 
+5) multi-path inheritance
+6) multilevel inheritance  (not possible in java) - can be achieved using interface 
 
 ## Abstraction
 

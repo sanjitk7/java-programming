@@ -3,6 +3,9 @@ interface Animal {
     public void sleep(); // interface method (does not have a body)
   }
   
+// note that in order to achieve a similar effect with abstract class -> use abstract keyword before member methods for them
+// to have empty bodies
+
   // Pig "implements" the Animal interface
   class Pig implements Animal {
     public void animalSound() {

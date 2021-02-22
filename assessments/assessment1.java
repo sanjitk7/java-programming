@@ -1,7 +1,7 @@
 // LAB ASSESSMENT 1 - SANJIT KUMAR - 18BCE0715
 
 import java.util.Scanner;
-public class assessment {
+public class assessment1 {
 
     public static void main(String[] args) {
         int n1,n2;

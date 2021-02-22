@@ -6,6 +6,7 @@ interface SecondInterface {
     public void myOtherMethod(); // interface method
 }
 
+// multiple inheritance
 class DemoClass implements FirstInterface, SecondInterface {
     public void myMethod() {
         System.out.println("Some text..");

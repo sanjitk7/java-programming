@@ -60,7 +60,7 @@ public class assessment1 {
         for(int i = 0;i<n1;i++){
             for (int j=0;j<n2;j++){
                 if(arr3[i]==arr4[j]){
-                    System.out.print(arr2[j]+" ");
+                    System.out.print(arr3[j]+" ");
                     count++;
                 }
             }

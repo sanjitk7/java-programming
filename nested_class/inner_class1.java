@@ -4,7 +4,7 @@ class outer {
     }
 }
 
-public class nested_class {
+public class inner_class1 {
     public static void main(String[] args) {
         outer obj = new outer();
         outer.inner ob1 = obj. new inner();

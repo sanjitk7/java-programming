@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 class number {
     void calculate() {
-        // Scanner s = new Scanner(System.in);
-        // int num = s.nextInt();
-        // s.close();
+        System.out.println("Enter the number whose sum of digits is to be calculated:");
+        Scanner s = new Scanner(System.in);
+        int num = s.nextInt();
 
-        int num = 51;
         int sum = 0;
 
         while (num != 0) {
@@ -20,40 +19,45 @@ class number {
 
 class quadratic extends number {
     void calculate() {
-        // int a, b, c;
-        // Scanner s = new Scanner(System.in);
-        // a = s.nextInt();
-        // b = s.nextInt();
-        // c = s.nextInt();
-        // s.close();
-        int a = 1;
-        int b = 2;
-        int c = 1;
+        int a, b, c;
+        System.out.println("Enter the values of a, b and c in the standard quadratic equation ax^2 + bx + x:");
+        Scanner s = new Scanner(System.in);
+        a = s.nextInt();
+        b = s.nextInt();
+        c = s.nextInt();
 
-        double d = b * b - 4.0 * a * c;
-
-        if (d > 0.0) {
-            
-            double r1 = (-b + Math.pow(d, 0.5)) / (2.0 * a);
-            double r2 = (-b - Math.pow(d, 0.5)) / (2.0 * a);
-            System.out.println("The roots are " + r1 + " and " + r2);
-        } else if (d == 0.0) {
-            double r1 = -b / (2.0 * a);
-            System.out.println("The root is " + r1);
-        } else {
-            System.out.println("Roots are not real.");
-        }
+        double root1, root2, imaginary, discriminant;
+		discriminant = (b * b) - (4 * a *c);
+	  	
+	  	if(discriminant > 0)
+	  	{
+	  		root1 = (-b + Math.sqrt(discriminant) / (2 * a));
+	  		root2 = (-b - Math.sqrt(discriminant) / (2 * a));
+	  		System.out.println("\n Two Distinct Real Roots Exists: root1 = " + root1 + " and root2 = " + root2);
+	  	}
+	  	else if(discriminant == 0)
+	  	{
+	  		root1 = root2 = -b / (2 * a);
+	  		System.out.println("\n Two Equal and Real Roots Exists: root1 = " + root1 + " and root2 = " + root2);
+	  	}
+	  	else if(discriminant < 0)
+	  	{
+	  		root1 = root2 = -b / (2 * a);
+	  		imaginary = Math.sqrt(-discriminant) / (2 * a);
+	  		System.out.println("\n Two Distinct Complex Roots Exists: root1 = " + root1 + 
+	  					" + " + imaginary + " and root2 = " + root2 +" - " +imaginary);
+	  	}		
 
     }
 }
 
 class sos extends number{
     void calculate(){
-        // System.out.println("Enter A number for calculating the sum of squares of all natural numbers till that number:");
-        // Scanner s = new Scanner(System.in);
-        // int num = s.nextInt();
-        // s.close();
-        int num = 4;
+        System.out.println("Enter A number for calculating the sum of squares of all natural numbers till that number:");
+        Scanner s = new Scanner(System.in);
+        int num = s.nextInt();
+
+
         int sum_of_sq=0;
         for (int i=0;i<num;i++){
             sum_of_sq+=Math.pow(i, 2);
@@ -67,7 +71,7 @@ public class assessment3 {
         System.out.println("Choose the operation:\n1. Calculate Sum of Digits\n2. Solve Quadratic Equation\n3. Calculate Sum of Squares");
         Scanner s = new Scanner(System.in);
         int ch = s.nextInt();
-        s.close();
+
         switch(ch){
             case 1:
                 number obj1 = new number();

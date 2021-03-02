@@ -17,7 +17,7 @@ class DemoClass implements FirstInterface, SecondInterface {
     }
 }
 
-public class interface_multiple {
+public class interface_multiple_inheritance {
     public static void main(String[] args) {
         DemoClass myObj = new DemoClass();
         myObj.myMethod();

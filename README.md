@@ -29,7 +29,7 @@ JDK and JRE are platform dependant but Java is platform independent.
 **java program -> java compiler -> JVM**
 
 
-### Miscellaneous Notes
+### Miscellaneous
 
 1. Whenever your class name is public, then your class name and file name have to be same.
 2. Character literals cannot have double quotes only single quotes. String literals have double quotes.

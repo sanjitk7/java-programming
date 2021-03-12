@@ -1,5 +1,6 @@
 class ani {
 
+    int sample = 3;
     // method in the superclass
     public void eat() {
       System.out.println("I can eat");
@@ -15,6 +16,7 @@ class ani {
   
       // call method of superclass
       super.eat();
+      System.out.println(super.sample);
       System.out.println("I eat dog food");
     }
   

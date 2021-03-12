@@ -20,6 +20,7 @@ public class library_example {
     int bid, bpages = 0;
     float bprice = 0.0F;
     String btitle;
+    char bcode;
 
     void get_lib() {
         System.out.println("Enter book details - Title, ID, Pages, Price:\n");
@@ -28,6 +29,7 @@ public class library_example {
         bid = s.nextInt();
         bpages = s.nextInt();
         bprice = s.nextFloat();
+        bcode = s.next().charAt(0);
         s.close();
     }
 

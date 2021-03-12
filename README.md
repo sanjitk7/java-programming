@@ -1,6 +1,6 @@
 # Java Programming Basics - Class Exercises
 
-This Repository Contains sample programs, practice exercises and assessments of the course CSE1006 - Java Programming in Vellore Institute of Technology, Vellore by Professor Anitha A.
+This Repository Contains sample programs, practice exercises and assessments of the course CSE1007 - Java Programming in Vellore Institute of Technology, Vellore by Professor Anitha A.
 
 ## Introduction
 
@@ -38,9 +38,9 @@ JDK and JRE are platform dependant but Java is platform independent.
 
 ### Errors
 
-Syntax Errors / Compilation Errors
-Runtime Errors - Errors and Exceptions
-Logic Error - Programmer Error
+1. Syntax Errors / Compilation Errors
+2. Runtime Errors - Errors and Exceptions
+3. Logic Error - Programmer Error
 
 ### Objects
 

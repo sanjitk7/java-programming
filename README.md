@@ -22,7 +22,7 @@ JDK - Java Development Kit (JRE + Development Tools)
 JDK and JRE are platform dependant but Java is platform independent.
 
 
-### Compilation works as follows
+### Compilation
 
 **.java to .class (bytecode) -> java interpreter (part of JVM) -> machine code**
 

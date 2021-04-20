@@ -17,3 +17,5 @@ public class multiple_catch {
         System.out.println("Program Continues..");
     }
 }
+
+// The NF exception is encountered/thrown first during runtime while parsing the code. Therefore it is caught wherever applicable.

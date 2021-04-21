@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "threads",
-        "exceptions"
+        "exceptions",
+        "java_io"
     ]
 }

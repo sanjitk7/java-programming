@@ -3,6 +3,7 @@
         "threads",
         "java_io",
         "exceptions",
-        "collections"
+        "collections",
+        "lambda"
     ]
 }

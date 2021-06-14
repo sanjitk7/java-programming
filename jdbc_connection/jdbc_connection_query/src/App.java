@@ -9,9 +9,15 @@ public class App {
         while (rs.next())
         {
             System.out.println("Sucess");
+            // Use Column Name or Column Number in getXXXX Methods.
+            System.out.println(rs.getString("id")+" "+rs.getString(2));
             System.out.println(rs.getString(1)+" "+rs.getString(2));
             
          }
+
+        PreparedStatement statement2 = con.prepareStatement("insert into admins(email, pass, age, fullname) values ('sanjit@gmail.com','abc',21,'Sanjit Kumar') ");
+        int no_of_updated_lines = statement2.executeUpdate();
+        System.out.println("$$$ : "+ no_of_updated_lines);
     con.close();
 }
 
